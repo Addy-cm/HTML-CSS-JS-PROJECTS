@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Generate Password</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Passwords</h1>
+        <div class="result">
+            <input type="text" name="Result" id="get-result-here" placeholder="get result here">
+            <button class="btn" id="btn-id">
+                <i class="btn-icon"></i>
+            </button>
+        </div>
+        <div class="type-of-password">
+            <div class="list-of-type-of-password">
+                <h>Length of Password</h>
+                <input type="number" id="length-of-password" min="6" max="30" value="30">
+            </div>
+            <div class="list-of-type-of-password">
+                <h>Uppercase include</h>
+                <input type="checkbox" id="uppercase-include" checked>
+            </div>
+            <div class="list-of-type-of-password">
+                <h>Lowercase include</h>
+                <input type="checkbox" id="lowercase-include" checked>
+            </div>
+            <div class="list-of-type-of-password">
+                <h>Include number</h>
+                <input type="checkbox" id="include-number" checked>
+            </div>
+            <div class="list-of-type-of-password">
+                <h>Include symbol</h>
+                <input type="checkbox" id="include-symbol" checked>
+            </div> 
+        </div>
+
+        <button class="btn-last" id="last-btn">Generate My Password</button>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
