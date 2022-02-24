@@ -50,7 +50,7 @@ h1{
 .result #get-result-here{
     height: 100%;
     word-wrap: break-word;
-    max-width: calc(100% - 50px);
+    max-width: calc(100% - 9px);
     overflow-y: scroll;
     height: 100%;
 }
@@ -86,6 +86,10 @@ h1{
     padding: -1px 11px;
     cursor: pointer;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(188, 188, 247);
+}
 .btn-last{
     width: 100%;
     display: block;
@@ -94,5 +98,15 @@ h1{
     color: white;
     font-size: 16px;
     padding: 8px 12px;
+    
+    background: transparent;
+}
+.btn-last:hover{
+    background-color: #f5d6ee;
+    color: black;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 198px) {
+    
 }
