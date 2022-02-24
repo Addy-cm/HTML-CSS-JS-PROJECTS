@@ -73,6 +73,9 @@ h1{
     align-items: center;
     margin: 15px 0;
 }
+.checkbox-pointer{
+    cursor: pointer;
+}
 
 .btn{
     border: none;
